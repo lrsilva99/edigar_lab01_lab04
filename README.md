@@ -9,6 +9,7 @@ Metodos criados:
  - Class - CustomerRepository
 
     @Query("{ 'name' : ?0 , 'site' : ?1 , 'cnpj' : ?2 , 'address' : ?3 }")
+
     Page<Customer> filterFullColumn(String name, String site,String cnpj,String address, Pageable pageable);  
 
 - CustomerService
@@ -23,6 +24,7 @@ Metodos criados:
 /\ Estrutura JAVA
 
 \/ Estrutura web rest
+
    public Page<Customer> filterFullColumn(String name, String site,String cnpj,String address, Pageable pageable)
    public List<Customer> findFromTo(int from, int to)
 
