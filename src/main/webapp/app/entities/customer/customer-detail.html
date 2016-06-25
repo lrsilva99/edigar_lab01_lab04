@@ -1,0 +1,30 @@
+
+<div>
+    <h2><span translate="lab11App.customer.detail.title">Customer</span> {{vm.customer.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span translate="lab11App.customer.name">Name</span></dt>
+        <dd>
+            <span>{{vm.customer.name}}</span>
+        </dd>
+        <dt><span translate="lab11App.customer.site">Site</span></dt>
+        <dd>
+            <span>{{vm.customer.site}}</span>
+        </dd>
+        <dt><span translate="lab11App.customer.cnpj">Cnpj</span></dt>
+        <dd>
+            <span>{{vm.customer.cnpj}}</span>
+        </dd>
+        <dt><span translate="lab11App.customer.address">Address</span></dt>
+        <dd>
+            <span>{{vm.customer.address}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

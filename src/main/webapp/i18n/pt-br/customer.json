@@ -1,0 +1,25 @@
+{
+    "lab11App": {
+        "customer" : {
+            "home": {
+                "title": "Customers",
+                "createLabel": "Criar novo Customer",
+                "createOrEditLabel": "Criar ou editar Customer",
+                "search": "Pesquisar por Customer"
+            },
+            "created": "Um novo Customer é criado com o identificador {{ param }}",
+            "updated": "Um Customer é atualizado com o identificador {{ param }}",
+            "deleted": "Um Customer é deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Customer {{ id }}?"
+            },
+            "detail": {
+                "title": "Customer"
+            },
+            "name": "Name",
+            "site": "Site",
+            "cnpj": "Cnpj",
+            "address": "Address"
+        }
+    }
+}
