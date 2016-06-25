@@ -1,9 +1,10 @@
-# lab1 e LAb 4
+# lab1 e Lab 4
 
 This application was generated using JHipster, you can find documentation and help at [https://jhipster.github.io](https://jhipster.github.io).
 
-Diretórios deletados (node_modules).
+Diretórios deletados (node_modules - main\webapp\bower_components).
 Metodos criados:
+
 \/ Estrutura JAVA
  - Class - CustomerRepository
 
