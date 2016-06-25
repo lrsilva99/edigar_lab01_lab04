@@ -16,7 +16,7 @@ Metodos criados:
    List<Customer> findFromTo(int from, int to);
    Page<Customer> filterFullColumn(String name, String site,String cnpj,String address, Pageable pageable);
 
-- CustomerServiceImpl (Na criação da tabela inclui a class implements)
+- CustomerServiceImpl (Na criação da tabela foi incluido a class implements)
     public List<Customer> findFromTo(int from, int to)
     public Page<Customer> filterFullColumn(String name, String site,String cnpj,String address, Pageable pageable)
 
